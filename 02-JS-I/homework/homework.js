@@ -236,7 +236,7 @@ function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return euro * 1.2;
 }
 
 
@@ -246,7 +246,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra.length > 1) {
+    return `Dato Incorrecto`
+  }
+  if (letra === `a` || letra === `e` || letra === `i` || letra === `o` || letra === `u`) {
+    return `Es una Vocal`
+  } 
+  return `Dato Incorrecto`
 }
 
 
