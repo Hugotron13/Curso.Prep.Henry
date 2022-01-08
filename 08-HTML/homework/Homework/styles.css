@@ -16,6 +16,11 @@ body {
     background-image: url("img/figuras.jpg");
     background-repeat: no-repeat;
 }
+a {
+    color:white;
+}
+
+
 
 #thirdDiv {
     height: 400px; 
@@ -31,6 +36,3 @@ body {
     margin: 50px;
 }
 
-a {
-    color:white;
-}
