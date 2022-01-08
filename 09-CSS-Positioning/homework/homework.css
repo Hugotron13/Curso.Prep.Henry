@@ -9,32 +9,44 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioUno {
     display: block;
     text-align: center;
-
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres {
+    position: relative;
+    top: 100px;
+    left: 200px;
 
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejercicioCinco {
+    
+}
 
 
 /* Ejercicio 6. */
